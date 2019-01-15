@@ -1,0 +1,26 @@
+{
+  "name": "repro-ocaml-bug",
+  "version": "0.0.0",
+  "description": "My Project",
+  "esy": {
+    "build": "dune build",
+    "install": [
+      "esy-installer repro-bug-ocaml.install",
+      "esy-installer repro-bug-reason.install"
+    ]
+  },
+  "scripts": {
+    "testReason": "esy x ReproReason.exe",
+    "testOCaml": "esy x ReproOcaml.exe"
+  },
+  "dependencies": {
+    "@opam/dune": "*",
+    "@esy-ocaml/reason": "*",
+    "refmterr": "*",
+    "ocaml": "~4.6.0",
+    "pesy": "*"
+  },
+  "devDependencies": {
+    "@esy-ocaml/merlin": "*"
+  }
+}

@@ -1,0 +1,6 @@
+
+(executable
+   (name ReproOcamlBugApp)
+   (public_name ReproReason.exe)
+   (package repro-bug-reason)
+)

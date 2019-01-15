@@ -1,0 +1,5 @@
+(executable
+   (name ReproOcamlBugApp)
+   (public_name ReproOcaml.exe)
+   (package repro-bug-ocaml)
+)
